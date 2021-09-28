@@ -1,0 +1,37 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.intros {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.introl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-right: 1px solid var(--ifm-color-primary);
+  }
+
+  .avatar {
+      width: 12rem;
+      height: 12rem;
+      border-radius: 6rem;
+  }
+
+  .recent {
+      color: rgb(180, 180, 180);
+  }
+
+  .hello {
+      font-size: 32px;
+      font-weight: bold;
+  }
+  
+  .text {
+      font-weight: 500;
+  }
+
+
