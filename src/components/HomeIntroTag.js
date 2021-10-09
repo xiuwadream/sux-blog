@@ -14,7 +14,7 @@ export default function(props){
                 <img height="36" src={props.icon}/>
                 <b>{props.title}</b><br/>
             </div>
-            <p>
+            <p style={{textIndent:'2em'}}>
                 {props.children}
             </p>
         </div>
