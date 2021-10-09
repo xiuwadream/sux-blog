@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'su4x', // Usually your GitHub org/user name.
+  projectName: 'su4x', // Usually your repo name.
   i18n: {
     defaultLocale: "zh-Hans",
     locales: ["zh-Hans"]
@@ -74,6 +74,7 @@ module.exports = {
         // },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: '最新文章',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,0 +1,22 @@
+.container {
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    padding: 4px 16px;
+    display: inline-block;
+    overflow: hidden;
+    width: 68px;
+    height: 44px;
+    margin-right: 8px;
+    transition:.8s; 
+    cursor: pointer;
+}
+.expand {
+    width: 320px;
+    height: 200px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+

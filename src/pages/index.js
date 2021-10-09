@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
 import HomePageIntro from '../components/HomePageIntro'
 
 function HomepageHeader() {
@@ -20,7 +19,7 @@ function HomepageHeader() {
           </ruby>
         </p>
         <p>我是苏宣，欢迎来到我的小站</p>
-        <p>目前只有我的个人简介和博客功能，未来会开发更多功能的</p>
+        <p>主要内容是我的博客和一些前端效果的实践</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary"
